@@ -42,7 +42,6 @@ docker run --name basic-mysql --rm -v /tmp/mysql-data:/var/lib/mysql -e MYSQL_RO
 npm start
 ```
 
-
 5. O servidor estará disponível em `http://localhost:3000`.
 
 ## Endpoints da API
