@@ -13,5 +13,6 @@ db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
 db.firm = require("./firm.model.js")(sequelize, Sequelize)
+db.vehicle = require("./vehicle.model.js")(sequelize, Sequelize)
 
 module.exports = db;
